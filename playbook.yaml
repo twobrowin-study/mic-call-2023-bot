@@ -14,7 +14,7 @@
     - name: Run bot docker service
       docker_swarm_service:
         name: mic-call-2023
-        image: twobrowin/spreadsheet-bot:2.5.1
+        image: twobrowin/mic-call-bot:1.0.3
         env:
           TZ: "Europe/Moscow"
           
